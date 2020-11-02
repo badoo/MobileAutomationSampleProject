@@ -1,0 +1,23 @@
+require_relative 'support/assertion'
+require_relative 'support/wait_timeout'
+require_relative 'support/polling'
+require_relative 'support/qaapi'
+
+require_relative 'your_app/expected_data'
+require_relative 'your_app/test_data'
+
+require_relative 'your_app/page/abstract_page'
+require_relative 'your_app/page/abstract_alert_page'
+require_relative 'your_app/page/chat_page'
+require_relative 'your_app/page/system_settings_page'
+require_relative 'your_app/page/encounters_page'
+
+require_relative 'steps/helper_steps'
+require_relative 'steps/app_steps'
+require_relative 'steps/chat_steps'
+require_relative 'steps/connections_steps'
+require_relative 'steps/generic_steps'
+require_relative 'steps/navigation_steps'
+require_relative 'steps/registration_steps'
+require_relative 'steps/signin_steps'
+require_relative 'steps/user_creation_steps'
