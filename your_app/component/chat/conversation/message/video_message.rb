@@ -8,6 +8,7 @@ module Component
 
           # INFO: Good Practice
           # Example 1 - keep Page methods simple
+          # Example 2 - extract Page methods into components
           def video_call_message_text
             ui.element_text(VIDEO_CALL_MESSAGE)
           end
